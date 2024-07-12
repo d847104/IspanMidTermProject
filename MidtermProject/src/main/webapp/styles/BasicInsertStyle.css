@@ -1,0 +1,102 @@
+@charset "UTF-8";
+body {
+    background-color: #fdf5e6;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+     }
+div {
+    text-align: center;
+    padding: 20px;
+}
+h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+    text-align:center;
+    margin-left: 20px;
+}
+.form-container {
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 500px;
+    width: 100%;
+}
+.inputDiv {
+    margin-bottom: 15px;
+}
+.inputLable {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input[type="text"], textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+textarea {
+    resize: vertical;
+}
+small {
+    display: block;
+    color: #666;
+    margin-top: 5px;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto 0;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    background-color: #45a049;
+    text-decoration: none;
+}
+
+.link-container {
+    display: flex;
+    justify-content:center; /* 使链接分布在容器两侧 */
+    width: 100%; /* 适当调整链接容器的宽度 */
+}
+
+.link-container a {
+    margin: 0 10px; /* 添加链接之间的间距 */
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.link-container a:hover {
+    background-color: #45a049;
+}

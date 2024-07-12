@@ -1,0 +1,59 @@
+body {
+    background-color: #fdf5e6;
+}
+
+div {
+    text-align: center;
+}
+
+.inputDiv {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px; /* 調整間距以適應小標籤 */
+    position: relative;
+}
+
+.inputLable {
+    display: inline-block;
+    width: 150px; /* 調整寬度來對齊 Label */
+    text-align: right;
+    margin-right: 10px;
+    font-size: 14pt; /* 設置標籤字體大小 */
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    font-size: 14pt; /* 設置輸入框字體大小 */
+    position:relative;
+}
+
+textarea {
+    width: 250px; /* 調整寬度以適應多行文本 */
+    height: 100px; /* 調整高度以顯示多行文本 */
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+small {
+    font-size: 10pt;
+    display: block;
+    margin-top: 5px; /* 調整 small 與 input 之間的距離 */
+    margin-left: 15px;
+    color: gray;
+}
+
+input[type="submit"] {
+    margin-left: 160px; /* 調整 margin-left 以對齊提交按鈕 */
+    font-size: 14pt; /* 設置按鈕字體大小 */
+    padding: 5px 10px; /* 調整按鈕內部填充 */
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/BasicInsertStyle.css">
+    <title>新增空氣資料</title>
+    <script src="/MidtermProject/script/validateForm.js"></script>
+</head>
+<body>
+<div align="center">
+    <h2 style="margin-left: 20px">新增空氣資料</h2>
+    <form name="airForm" method="post" action="../Insert" class="form-container" onsubmit="return validateForm()">
+        <div class="inputDiv">
+            <label class="inputLable">發布時間</label>
+            <input type="text" name="publishtime"/>
+            <small>(請輸入日期格式: yyyy-MM-dd)</small>
+        </div>
+        <div class="inputDiv">
+            <label class="inputLable">空品區名稱</label>
+            <input type="text" name="area"/>
+        </div>
+        <div class="inputDiv">
+            <label class="inputLable">主要污染物</label>
+            <input type="text" name="majorpollutant"/>
+        </div>
+        <div class="inputDiv">
+            <label class="inputLable">預報日期</label>
+            <input type="text" name="forecastdate"/>
+            <small>(請輸入日期格式: yyyy-MM-dd)</small>
+        </div>
+        <div class="inputDiv">
+            <label class="inputLable">空氣品質指標</label>
+            <input type="text" name="aqi"/>
+        </div>
+        <div class="inputDiv">
+            <label class="inputLable">次要污染物</label>
+            <input type="text" name="minorpollutant"/>
+        </div>
+        <div class="inputDiv">
+            <label class="inputLable">次要污染物指標</label>
+            <input type="text" name="minorpollutantaqi"/>
+        </div>
+        <div class="inputDiv">
+            <label class="inputLable">預報文字</label>
+            <textarea name="content" rows="4" cols="50"></textarea>
+        </div>
+        <div>        
+        	<input type="submit" value="送出"/>
+        </div>
+    </form>
+</div>
+        <div class="link-container">
+		    <a href="/MidtermProject/GetAllAir">返回所有資料</a>
+		    <a href="/MidtermProject/html/Index.html">返回首頁</a>
+		</div>
+</body>
+</html>

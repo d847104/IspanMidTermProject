@@ -1,0 +1,14 @@
+@charset "UTF-8";
+form{
+	width:550px
+}
+.inputDiv{
+	width : 300px;
+    padding-bottom: 10px;
+}
+
+.inputLable{
+	width:100px;
+	float:left;
+	text-align:right;
+}
